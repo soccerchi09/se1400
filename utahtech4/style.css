@@ -28,29 +28,33 @@ header h1{
   line-height: 140%;
   padding: .5rem;
 }
+header h1 a{
+  color: white;
+  text-decoration: none;
+}
 #homehero{
-  grid-column: 2 / -2;
   background-image: url('utahtechimages/homehero.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 300px;
+  grid-column: 2 / -2;
 }
 #studenthero{
-  grid-column: 2 / -2;
   background-image: url('utahtechimages/studenthero.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 300px;
+  grid-column: 2 / -2;
 }
 #facultyhero{
-  grid-column: 2 / -2;
   background-image: url('utahtechimages/facultyhero.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 300px;
+  grid-column: 2 / -2;
 }
 nav {
   background-color: #424242;
