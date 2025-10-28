@@ -1,41 +1,13 @@
-
-nav {
-    background-color: red;
-    grid-column: 2/-2;
-    grid-row: 2/3;
-    display: flex;
+#wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
-    
-main {
-    flex: 2;
-    padding: 20px;
-    background-color: #f9f9f9;
+nav{
+    height: 100px;
+    background-color: orange;
+    grid-column: 1 / 6;
 }
-.home-hero {
-    background-color: #003058;
-    flex: 1;
-    background-size: cover;
-    background-position: center;
-}
-
-.sub-hero {
-    flex: 1;
-    background-size: cover;
-    background-position: center;
-}
-
-footer {
-    flex: 0 0 100px;
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-}
-#Wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-color: #f0f0f0;
+body{
+    margin: 0;
+    padding: 0;
 }
