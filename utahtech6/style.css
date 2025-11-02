@@ -230,16 +230,4 @@ label {
         display: none;
     }
 }
- form {
-    grid-template-columns: 1fr;
-  }
-
-  label {
-    text-align: left;
-    padding: 5px 0;
-  }
-
-  #mySubmit {
-    grid-column: 1 / 2;
-    justify-self: start;
-  }
+ 
