@@ -31,7 +31,7 @@ footer{
 
 #wrapper{
     display: grid;
-    grid-template-columns: 1fr 300px 600px 300px 1fr;
+    grid-template-columns: 1fr minmax(200px, 400px) minmax(500px, 1000px) minmax(200px, 400px) 1fr;
     grid-template-rows: 1fr 6fr 1fr;
     background-color: blue;
     width: 100%;
