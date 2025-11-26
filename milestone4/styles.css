@@ -109,14 +109,14 @@ header {
 }
 
 #hero img {
-    max-width: 275px;
+    max-width: 250px;
     height: auto;
     text-align: center;
 }
 
 
 #superhero img {
-    max-width: 275px;
+    max-width: 250px;
     max-height: fit-content;
     text-align: center;
 }
