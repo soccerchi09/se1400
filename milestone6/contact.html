@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Capes and Comics - Contact</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="nofollow, noindex">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <div id="redbar"></div>
+
+        <header>
+            <div class="header-container">
+
+                <div class="logo">
+                    <img src="logo.png" alt="Capes and Comics logo">
+                </div>
+
+                <div id="search-area">
+                    <label for="search" class="search-label">SEARCH</label>
+                    <input id="search" type="text" placeholder="Search the site...">
+                </div>
+
+                <nav id="comics">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="characters.html">Characters</a></li>
+                        <li><a href="comics.html">Comics</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="contact.html" class="active">Contact</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+        </header>
+
+        <main>
+
+            <section class="comic-box red-box">
+                <h2>Contact Capes and Comics</h2>
+                <p>
+                    Have a question about your favorite heroes, comic runs, or Transformers?  
+                    Use the form to send us a message and we’ll get back to you as soon as we can.
+                </p>
+                <p>
+                    You can also reach out for:
+                </p>
+                <ul>
+                    <li>Suggestions for new characters or comics to feature</li>
+                    <li>Corrections or updates to page content</li>
+                    <li>General questions about the site</li>
+                </ul>
+            </section>
+
+            <section class="comic-box yellow-box" id="form-box">
+                <h2>Send Us a Message</h2>
+
+                <form action="#" method="post">
+
+                    <div class="form-row">
+                        <label for="name"><strong>Name:</strong></label><br>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-row">
+                        <label for="email"><strong>Email:</strong></label><br>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-row">
+                        <label for="topic"><strong>Topic:</strong></label><br>
+                        <select id="topic" name="topic">
+                            <option value="general">General Question</option>
+                            <option value="characters">Character Suggestion</option>
+                            <option value="comics">Comic Run Suggestion</option>
+                            <option value="transformers">Transformers Request</option>
+                            <option value="feedback">Site Feedback</option>
+                        </select>
+                    </div>
+
+                    <div class="form-row">
+                        <label for="message"><strong>Message:</strong></label><br>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+
+                    <div class="form-row">
+                        <label>
+                            <input type="checkbox" name="newsletter">
+                            Sign me up for hero & comic updates.
+                        </label>
+                    </div>
+
+                    <div class="form-row">
+                        <button type="submit">Send Message</button>
+                    </div>
+                </form>
+            </section>
+
+            <section class="comic-box blue-box">
+                <h2>Headquarters</h2>
+                <p>
+                    Capes and Comics HQ<br>
+                    Hall of Heroes, Sector 7<br>
+                    Multiverse District, Earth-616
+                </p>
+                <p>
+                    Hours: Monday – Friday, 9:00 AM – 5:00 PM (Hero Time)<br>
+                    Response Time: Usually within 1–2 business days.
+                </p>
+            </section>
+
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Capes and Comics. All rights reserved.</p>
+        </footer>
+
+    </div>
+</body>
+
+</html>
