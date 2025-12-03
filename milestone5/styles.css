@@ -214,6 +214,16 @@ footer {
     .logo img {
         height: 90px;
     }
+    .header-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    #comics ul {
+        justify-content: center;
+        width: 100%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -239,6 +249,9 @@ footer {
     #comics ul {
         flex-wrap: wrap;
         row-gap: 8px;
+        justify-content: center;
+        padding-top: 10px;
+        width: 100%;
     }
     #search-area {
         width: 100%;
@@ -250,5 +263,9 @@ footer {
 
     .logo img {
         height: 70px;
+    }
+    
+    #comics a {
+        font-size: 1rem;
     }
 }
