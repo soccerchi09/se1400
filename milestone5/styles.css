@@ -41,7 +41,7 @@ img {
 
 #wrapper {
     display: grid;
-    grid-template-columns: 1fr 260px minmax(600px, 900px) 260px 1fr;
+    grid-template-columns: 1fr 260px minmax(0px, 900px) 260px 1fr;
     grid-template-rows: auto auto 1fr auto;
     min-height: 100vh;
 }
